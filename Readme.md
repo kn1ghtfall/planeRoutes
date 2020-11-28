@@ -32,10 +32,11 @@ Programul citeste dintr-un fisier datele despre insulele aflate in arhipelag, pr
 
 ## Structuri de date folosite
 
-1. Resursa: retine datele despre cate o resursa de pe o insula
-2. Island: retine date despre o insula din arhipelag, precum numele acesteia, numarul de resurse, resursele, numarul de avioane, id-urile acesora si tolul avioanelor.
-3. Arhipelag: stocheaza date despre insulele idn arhipelag. Arhipelagul a fost reprezentat ca un graf in rezolvarea probelmei. In structura este declarata matricea de adiacenta cu numarul de noduri si muchii.
-4. Stack: este o stiva ce stocheaza cuvinte. Este folosita pentru a afisa in ordine crescatoare din punct de vedere lexicografic
+
+1. Graf: Arhipelagul a fost reprezentat ca un graf in rezolvarea probelmei. In structura este declarata matricea de adiacenta cu numarul de noduri si muchii. Un nod al grafului reprezinta o insula.
+2. Stack: este o stiva ce stocheaza cuvinte. Este folosita pentru a afisa in ordine crescatoare din punct de vedere lexicografic
+3. 'Resursa': element de tip struct. Retine datele despre cate o resursa de pe o insula
+4. 'Island': element de tip struct. Retine date despre o insula din arhipelag, precum numele acesteia, numarul de resurse, resursele, numarul de avioane, id-urile acesora si tolul avioanelor.
 
 
 ## Rularea Programului
